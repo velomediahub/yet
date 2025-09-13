@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda Quest - A Pixel Art Adventure</title>
+    <title>Panda Quest - Testimonials</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         body {
@@ -49,13 +49,24 @@
             margin-top: 0;
             text-shadow: 2px 2px #000000;
         }
-        .hero-image {
-            width: 100%;
-            max-width: 600px;
-            border: 3px solid #61dafb;
-            border-radius: 5px;
-            margin: 20px 0;
-            image-rendering: pixelated; /* Ensures pixel art stays sharp */
+        .testimonial {
+            background-color: #282c34;
+            border: 2px solid #61dafb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: left;
+            width: 80%;
+        }
+        .testimonial p {
+            margin: 0 0 10px 0;
+            line-height: 1.5;
+        }
+        .testimonial .author {
+            font-size: 0.9em;
+            color: #a4eaff;
+            text-align: right;
+            margin-top: 10px;
         }
         .btn {
             background-color: #61dafb;
@@ -120,16 +131,30 @@
     <div class="pixel-background"></div>
     <div class="header">
         <h1>Panda Quest</h1>
-        <h2>A Pixel Art Adventure</h2>
+        <h2>Player Testimonials</h2>
     </div>
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="testimonies.html">Testimonials</a>
     </div>
     <div class="container">
-        <img src="panda_game_hero.png" alt="Panda Game Hero" class="hero-image">
-        <p>Embark on an epic journey with our heroic panda through vibrant pixelated worlds! Jump, climb, and solve puzzles in this charming retro platformer.</p>
-        <a href="#" class="btn">Play Now!</a>
+        <div class="testimonial">
+            <p>"Panda Quest is an absolute delight! The pixel art is stunning, and the gameplay is addictive. A true retro gem!"</p>
+            <p class="author">- PixelMaster_77</p>
+        </div>
+        <div class="testimonial">
+            <p>"I haven't had this much fun with a platformer in years. The panda is super cute, and the levels are cleverly designed."</p>
+            <p class="author">- GamingGuruX</p>
+        </div>
+        <div class="testimonial">
+            <p>"Challenging yet rewarding! Panda Quest perfectly captures the old-school arcade feel with a fresh twist."</p>
+            <p class="author">- RetroPlayer_Mike</p>
+        </div>
+        <div class="testimonial">
+            <p>"My kids and I love playing Panda Quest together. It's simple enough for them but still engaging for me!"</p>
+            <p class="author">- HappyGamerMom</p>
+        </div>
+        <a href="index.html" class="btn">Back to Home</a>
     </div>
     <div class="footer">
         <p>&copy; 2023 Panda Quest Game. All rights reserved.</p>
