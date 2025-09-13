@@ -13,11 +13,11 @@
             background-color: #282c34;
             color: #ffffff;
             text-align: center;
-            overflow: hidden;
+            /* overflow: hidden; */ /* Removed to allow scrolling */
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            /* align-items: center; */ /* Removed to allow natural content flow */
+            /* justify-content: center; */ /* Removed to allow natural content flow */
             min-height: 100vh;
         }
         .header {
@@ -36,6 +36,7 @@
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
             padding: 30px;
             margin-bottom: 20px;
+            margin-top: 20px; /* Added margin to separate from header/navbar */
         }
         h1 {
             color: #61dafb;
@@ -74,7 +75,7 @@
             transform: scale(1.05);
         }
         .footer {
-            margin-top: 20px;
+            margin-top: auto; /* Push footer to the bottom */
             padding: 10px;
             font-size: 0.8em;
             color: #bbb;
@@ -103,6 +104,7 @@
         }
         .navbar {
             margin-bottom: 20px;
+            margin-top: 20px; /* Added margin for spacing */
         }
         .navbar a {
             color: #61dafb;
