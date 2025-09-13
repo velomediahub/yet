@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda Quest - Testimonials</title>
+    <title>Panda Quest - Blog</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         body {
@@ -24,7 +24,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             width: 90%;
             max-width: 960px;
             background-color: #3a404a;
@@ -33,7 +32,8 @@
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
             padding: 30px;
             margin-bottom: 20px;
-            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
         }
         h1 {
             color: #61dafb;
@@ -47,33 +47,36 @@
             margin-top: 0;
             text-shadow: 2px 2px #000000;
         }
-        .testimonial {
+        .post {
             background-color: #282c34;
             border: 2px solid #61dafb;
             border-radius: 8px;
             padding: 20px;
             margin: 15px 0;
             text-align: left;
-            width: 80%;
+            width: 90%;
         }
-        .testimonial p {
-            margin: 0 0 10px 0;
-            line-height: 1.5;
-        }
-        .testimonial .author {
-            font-size: 0.9em;
+        .post-title {
+            font-size: 1.5em;
             color: #a4eaff;
-            text-align: right;
-            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .post-meta {
+            font-size: 0.8em;
+            color: #bbb;
+            margin-bottom: 15px;
+        }
+        .post-content p {
+            line-height: 1.6;
         }
         .btn {
             background-color: #61dafb;
             color: #282c34;
-            padding: 15px 30px;
+            padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            font-size: 1.2em;
-            margin-top: 20px;
+            font-size: 1em;
+            margin-top: 10px;
             display: inline-block;
             transition: background-color 0.3s, transform 0.3s;
             border: 2px solid #282c34;
@@ -110,8 +113,7 @@
             to { background-position: 1000px 1000px; }
         }
         .navbar {
-            margin-bottom: 20px;
-            margin-top: 20px;
+            padding: 10px 0;
         }
         .navbar a {
             color: #61dafb;
@@ -129,7 +131,7 @@
     <div class="pixel-background"></div>
     <div class="header">
         <h1>Panda Quest</h1>
-        <h2>Player Testimonials</h2>
+        <h2>Dev Blog</h2>
     </div>
     <div class="navbar">
         <a href="index.html">Home</a>
@@ -137,23 +139,30 @@
         <a href="blog.html">Blog</a>
     </div>
     <div class="container">
-        <div class="testimonial">
-            <p>"Panda Quest is an absolute delight! The pixel art is stunning, and the gameplay is addictive. A true retro gem!"</p>
-            <p class="author">- PixelMaster_77</p>
+        <div class="post">
+            <h3 class="post-title">The Adventure Begins!</h3>
+            <p class="post-meta">Posted on October 26, 2023 by DevTeam</p>
+            <div class="post-content">
+                <p>Welcome to the official Panda Quest dev blog! We are incredibly excited to finally share our passion project with the world. Development is in full swing, and we're laying down the bamboo-thicketed groundwork for an epic pixel art platformer.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
         </div>
-        <div class="testimonial">
-            <p>"I haven't had this much fun with a platformer in years. The panda is super cute, and the levels are cleverly designed."</p>
-            <p class="author">- GamingGuruX</p>
+        <div class="post">
+            <h3 class="post-title">Pixel Perfect: The Art of Panda Quest</h3>
+            <p class="post-meta">Posted on October 20, 2023 by ArtPanda</p>
+            <div class="post-content">
+                <p>Ever wonder how we make our panda so charmingly chubby in just a few pixels? This week, we're diving deep into the art style of Panda Quest, from initial character sketches to the vibrant, blocky worlds you'll explore. It's a labor of love, one pixel at a time.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
         </div>
-        <div class="testimonial">
-            <p>"Challenging yet rewarding! Panda Quest perfectly captures the old-school arcade feel with a fresh twist."</p>
-            <p class="author">- RetroPlayer_Mike</p>
+         <div class="post">
+            <h3 class="post-title">Sound On: Crafting the Chiptune Soundtrack</h3>
+            <p class="post-meta">Posted on October 12, 2023 by SoundNinja</p>
+            <div class="post-content">
+                <p>The bleeps, the bloops, the boops! A great retro game needs a great retro soundtrack. In this post, we'll share a sneak peek into the chiptune magic that will accompany our heroic panda on his quest. Get ready to have these tunes stuck in your head!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
         </div>
-        <div class="testimonial">
-            <p>"My kids and I love playing Panda Quest together. It's simple enough for them but still engaging for me!"</p>
-            <p class="author">- HappyGamerMom</p>
-        </div>
-        <a href="index.html" class="btn">Back to Home</a>
     </div>
     <div class="footer">
         <p>&copy; 2023 Panda Quest Game. All rights reserved.</p>
